@@ -10,10 +10,10 @@ app.use(cors())
 app.use(express.json())
 
 
-mongoose.connect("mongodb://localhost:27017/lastproject").then(()=> console.log("sucesseful"))
+mongoose.connect("mongodb://localhost:27017/supermarket").then(()=> console.log("sucesseful"))
 
 
 
 
 
-app.listen(9000,()=>console.log(`server is running`))
+app.listen(1000,()=>console.log(`server is running`))
