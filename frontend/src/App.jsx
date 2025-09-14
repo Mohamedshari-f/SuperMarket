@@ -19,7 +19,7 @@ function App(){
     {/* <Route path="/updateproduct/:id" element= {<UpdateProduct />}/> */}
     <Route path="/Customer" element= {<Customer/>}/>
     {/* <Route path="/cards" element= {<DashboardCards />}/> */}
-    <Route path="/dash" element= {<Dashboard />}/>
+    {/* <Route path="/dash" element= {<Dashboard />}/> */}
     <Route path="/customerlogin" element= {<CustomerLogin /> }/>
   </Routes>
 }
