@@ -1,6 +1,6 @@
 const express = require("express")
-const productControl = require("../controller/ProductControl")
-const uploadImages = require("../middleware/uploadimage")
+const productControl = require("../Control/productControl")
+const uploadImages = require("../mallware/uploadImage")
 const router = express.Router()
 
 // Product

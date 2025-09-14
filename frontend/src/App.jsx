@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {Routes, Route,} from "react-router-dom";
 import Customer from "./costomer/costomer";
 // import Home from "./Components/Home";
@@ -22,5 +23,20 @@ function App(){
     {/* <Route path="/dash" element= {<Dashboard />}/> */}
     <Route path="/customerlogin" element= {<CustomerLogin /> }/>
   </Routes>
+=======
+import { useState } from 'react'
+
+import './App.css'
+import AddProduct from './Product/addbook'
+import Book from './Product/Book'
+import Cart from './Product/Cart'
+
+
+function App() {
+
+  return <>
+ 
+  </>
+>>>>>>> fb76f8d59d5934ccc6c7acd0514dfde9a71eea80
 }
 export default App
